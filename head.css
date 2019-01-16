@@ -23,6 +23,8 @@ nav {
     margin: 0;
 
     display: flex;
+    position: sticky;
+    top: 0;
 }
 
 nav .menu {
@@ -34,4 +36,10 @@ nav .menu {
 .menu a {
     color: white;
     font-size: 1.5em;
+}
+
+a:hover {
+    background-color: white;
+    color:#66CEFF;
+    border-radius: 20%;
 }
