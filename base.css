@@ -1,9 +1,9 @@
 body{
 
     font-family: 'Karla', sans-serif;
-    max-width: 1200px;
     background-image: linear-gradient(to right, #66ceff, #94d3ff, #b6d9ff, #d0e0fd, #e4e8f9, #e4e8f9, #e4e8f9, #e4e8f9, #d0e0fd, #b6d9ff, #94d3ff, #66ceff);
-    margin: 0 auto;
+    margin: 0;
+    color: #66ceff;
 }
 
 li {
@@ -12,7 +12,7 @@ li {
 
 main {
     display: flex;
-    flex-flow: column;
+    flex-wrap: wrap;
     background-color: white;
     margin: 0 auto;
 }
@@ -26,11 +26,20 @@ a {
     text-decoration: none;    
 }
 
-video {
-    width: 75%;
-}
-
 footer {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    text-decoration: underline #66CEFF;
+    text-align: center;
+    flex: 100%;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0 0 0 7ch;
 }

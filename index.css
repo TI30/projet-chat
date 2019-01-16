@@ -1,0 +1,44 @@
+ .accueil video {
+     margin: 0 auto;
+     padding: 0;
+     height: 250px;
+ }
+ 
+ .accueil h2 {
+     text-align: center;
+     margin-top: 50px;
+     flex: 100%;
+ }
+
+.accueil div {
+    flex:50%;
+    display: flex;
+    justify-content: center;
+}
+
+.accueil p {
+    text-align: center;
+    margin-left: 20ch;
+    margin-right: 20ch;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+ .accueil  img {
+     margin: 0 auto;
+    size: auto;
+ }
+
+
+ .accueil aside {
+    flex: 50%;
+    justify-content: center;
+    background-color: lightcoral;
+    color: white;
+    text-decoration: none;
+}
+
+.accueil aside h2,
+.accueil aside p {
+    margin: 0;
+}
