@@ -2,16 +2,10 @@ body{
 
     font-family: 'Karla', sans-serif;
     max-width: 1200px;
-    align-items: center;
-    display: flex;
-    flex-flow: column;
     background-color: whitesmoke;
     margin: 0 auto;
 
 }
-
-
-
 
 h1, 
 h2,
