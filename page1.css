@@ -1,0 +1,17 @@
+.main-page-1 {
+    display: flex;
+}
+.origin {
+    background-image: url(images/origine-du-chat.jpg);
+    background-size: cover;    
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 75px;
+    margin-top: 50px;
+    line-height: 1.5;
+}
+.origin p {
+    background-color: rgba(255, 255,255, .9);
+    margin: 0;
+    padding-top: 2em;
+}
