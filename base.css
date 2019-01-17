@@ -3,6 +3,7 @@ body{
     background-image: linear-gradient(to right, #66ceff, #94d3ff, #b6d9ff, #d0e0fd, #e4e8f9, #e4e8f9, #e4e8f9, #e4e8f9, #d0e0fd, #b6d9ff, #94d3ff, #66ceff);
     margin: 0;
     color: #66ceff;
+    letter-spacing: 1px;
 }
 
 li {
@@ -19,6 +20,7 @@ main {
 img {
     height: 150px;
     width:200px;
+    
 }
 
 a {
@@ -27,12 +29,46 @@ a {
 
 h2 {
     font-size: 2em;
-    text-decoration: underline #66CEFF;
+    text-decoration: underline slategray;
     text-align: center;
     flex: 100%;
+    color: slategrey;
 }
 
 h3 {
     font-size: 1.5em;
     margin: 0 0 0 7ch;
+    color: slategray;
+}
+
+dt {
+
+font-weight: bold;    
+color: navy;
+}
+
+dd {
+display: flex;
+flex-flow: row;
+padding-bottom: 2em;
+padding-top: 1em;
+}
+
+
+
+.page-3-photo> img {
+
+height: auto;
+width: 500px;
+box-shadow: slategray 3px 3px 3px 3px; 
+} 
+
+.page-4-photo img {
+    box-shadow: slategray 2px 2px 2px 2px; 
+    height: 200px;
+    width: 250px;
+} 
+
+p {
+    margin: 2em;
 }
