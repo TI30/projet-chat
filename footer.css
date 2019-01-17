@@ -30,6 +30,15 @@ form {
 .area {
     flex: 50%;
 }
-.area label {
-    
+
+.contact {
+    display: flex;
+    width: 50%;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.contact li a {
+    text-decoration: none;
+    color:white;
 }

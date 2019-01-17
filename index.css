@@ -8,6 +8,8 @@
      text-align: center;
      margin-top: 50px;
      flex: 100%;
+     color: slategray;
+    text-decoration: underline slategray;
  }
 
 .accueil div {
@@ -20,8 +22,9 @@
     text-align: center;
     margin-left: 20ch;
     margin-right: 20ch;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
     margin-top: 50px;
+    line-height: 1.5;
 }
 
  .accueil  .image-home {
@@ -34,14 +37,22 @@
     height: auto;
  }
 
-aside p {
-    margin: auto 5ch;
+.accueil aside p {
+    margin: 0 5ch 10% 5ch;
+    line-height: 2;
+    text-align: center;
 }
-
+.accueil aside h2 {
+    color: slategray;
+    text-decoration: underline slategray;
+    margin: 1em auto;
+}
  .accueil aside {
-    flex: 50%;
+    flex: 45%;
     justify-content: center;
     background-color: lightcoral;
     color: white;
     text-decoration: none;
+    border: solid slategray 2px;
+    border-radius: .5%
 }
