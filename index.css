@@ -16,7 +16,7 @@
     justify-content: center;
 }
 
-.accueil p {
+.accueil > p {
     text-align: center;
     margin-left: 20ch;
     margin-right: 20ch;
@@ -24,11 +24,19 @@
     margin-top: 50px;
 }
 
- .accueil  img {
-     margin: 0 auto;
-    size: auto;
+ .accueil  .image-home {
+    margin: 0 auto;
+    flex: 50%;
  }
 
+ .image-home img {
+    width: 650px;
+    height: auto;
+ }
+
+aside p {
+    margin: auto 5ch;
+}
 
  .accueil aside {
     flex: 50%;
@@ -36,9 +44,4 @@
     background-color: lightcoral;
     color: white;
     text-decoration: none;
-}
-
-.accueil aside h2,
-.accueil aside p {
-    margin: 0;
 }

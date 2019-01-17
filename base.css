@@ -1,5 +1,4 @@
 body{
-
     font-family: 'Karla', sans-serif;
     background-image: linear-gradient(to right, #66ceff, #94d3ff, #b6d9ff, #d0e0fd, #e4e8f9, #e4e8f9, #e4e8f9, #e4e8f9, #d0e0fd, #b6d9ff, #94d3ff, #66ceff);
     margin: 0;
@@ -24,12 +23,6 @@ img {
 
 a {
     text-decoration: none;    
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
 }
 
 h2 {

@@ -1,0 +1,35 @@
+footer {
+        display: flex;
+        margin-top: 20px;
+        color: slategray;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+}
+form {
+    display: flex;
+    width: 50%;
+}
+.name {
+    display: flex;
+    flex: 50%;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.button {
+    overflow: hidden;
+    margin-top: 15px;
+    width: 25%;
+    background-color: rgb(255, 255, 255 , 0);
+    color: #fff;
+    border: 3px solid #fff;  
+}
+.button:hover {
+    background-color: #fff;
+    color: slategray;
+}
+.area {
+    flex: 50%;
+}
+.area label {
+    
+}
