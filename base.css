@@ -81,3 +81,14 @@ p {
     margin-bottom: 75px;
     margin-top: 50px;
     line-height: 1.5;
+}
+.page-4-photo li {
+    display: flex;
+    flex-flow: column;
+}
+.page-4-photo img {
+    margin: 2% auto 0 auto;
+}
+.page-4-photo h3 {
+    margin: 0 0 0 20%;
+}
