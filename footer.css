@@ -1,9 +1,9 @@
 footer {
-        display: flex;
-        margin-top: 20px;
-        color: slategray;
-        font-size: 1.2em;
-        margin-bottom: 20px;
+    display: flex;
+    margin-top: 20px;
+    color: slategray;
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 form {
     display: flex;

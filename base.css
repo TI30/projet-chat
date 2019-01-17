@@ -40,21 +40,23 @@ h2 {
 
 h3 {
     font-size: 1.5em;
-    margin: 0 0 0 7ch;
+    margin: 0 0 0 10%;
     color: slategray;
 }
 
 dt {
-
-font-weight: bold;    
-color: navy;
+    font-size: 1em;
+    margin: 0 0 0 7ch;
+    color: slategray;
 }
 
 dd {
-display: flex;
-flex-flow: row;
-padding-bottom: 2em;
-padding-top: 1em;
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 75px;
+    margin-top: 50px;
+    line-height: 1.5;
 }
 
 
@@ -71,10 +73,6 @@ box-shadow: slategray 3px 3px 3px 3px;
     height: 200px;
     width: 250px;
 } 
-
-p {
-    margin: 2em;
-}
 
 p {
     text-align: justify;
