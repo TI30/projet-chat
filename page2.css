@@ -1,0 +1,14 @@
+
+.main-page2 dl {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    overflow: auto;
+    height: 700px;
+}
+dd {
+    margin: 10px;
+}
+.main-page2 {
+    padding: 0;
+    margin: 0;
+}
