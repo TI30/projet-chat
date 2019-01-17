@@ -14,7 +14,7 @@ header h1 {
     margin: 0;
 }
 
-header img {
+.cat-banner {
     height: 150px;
 }
 
@@ -26,11 +26,25 @@ nav {
     position: sticky;
     top: 0;
 }
-
+.cat-walk {
+    position: absolute;
+    height: 62px;
+    width: auto;
+    animation: cat 10s linear infinite;
+}
+@keyframes cat {
+    from{ 
+        margin-left: 0;
+    }
+    to{
+        margin-left: 100%;
+    }
+}
 nav .menu {
     display: flex;
     justify-content: space-around;
     flex: 100%;
+    z-index: 1;
 }
 
 .menu a {
