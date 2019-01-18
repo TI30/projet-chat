@@ -18,6 +18,14 @@
     height: auto;
  }
 
+.gif-home {
+margin: 0 auto;
+flex: 50%;
+width: 300px;
+height: auto;
+ }
+
+
 .accueil aside p {
     margin: 0 5ch 10% 5ch;
     line-height: 2;
