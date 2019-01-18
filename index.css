@@ -1,3 +1,7 @@
+ .accueil {
+     padding: 0;
+     max-width: 100%;
+ }
  .accueil video {
      margin: 0 auto;
      padding: 0;
@@ -18,11 +22,20 @@ margin: 0 auto
 
 .gif-home {
     margin: 0 auto;
-    flex: 25%;
+  width: 100%;
     height: auto;
  }
-
-
+ @media screen and (max-width: 1200px) {
+     .gif-home img {
+         display: none;
+     }
+     .gif-home video {
+         flex: 100%;
+     }
+ }
+ aside{
+     margin: 0 2em;
+ }
 .accueil aside p {
     margin: 0 5ch 10% 5ch;
     line-height: 2;
