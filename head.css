@@ -28,7 +28,7 @@ nav {
 }
 .cat-walk {
     position: absolute;
-    height: 62px;
+    height: 100%;
     width: auto;
     animation: cat 10s linear infinite;
 }
@@ -54,6 +54,8 @@ nav .menu {
 
 .menu a:hover {
     background-color: white;
+
     color:#66CEFF;
     border-radius: 5%;
 }
+
