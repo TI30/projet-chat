@@ -53,7 +53,7 @@ nav .menu {
 }
 
 .menu a:hover {
-    background-color: white;
+    background-color: rgba(255,255,255, .7);
 
     color:#66CEFF;
     border-radius: 5%;

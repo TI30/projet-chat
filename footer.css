@@ -1,13 +1,13 @@
 footer {
     display: flex;
-    margin-top: 20px;
+    margin-top: 1em;
     color: slategray;
     font-size: 1.2em;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
 }
 form {
     display: flex;
-    width: 50%;
+    flex: 50%;
 }
 .name {
     display: flex;
@@ -17,11 +17,11 @@ form {
 }
 .button {
     overflow: hidden;
-    margin-top: 15px;
+    margin-top: .75em;
     width: 25%;
     background-color: rgb(255, 255, 255 , 0);
     color: #fff;
-    border: 3px solid #fff;  
+    border: .15em solid #fff;  
 }
 .button:hover {
     background-color: #fff;

@@ -1,9 +1,6 @@
-
 .main-page2 dl {
     display: grid;
-    grid-template-columns: repeat(8,1fr);
-    overflow: auto;
-    height: 700px;
+    grid-template-columns: repeat(4,1fr);
 }
 dd {
     margin: 10px;
@@ -11,4 +8,5 @@ dd {
 .main-page2 {
     padding: 0;
     margin: 0;
+    width: 100%;
 }

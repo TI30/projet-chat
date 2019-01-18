@@ -1,28 +1,25 @@
  .accueil video {
      margin: 0 auto;
      padding: 0;
-     height: 250px;
+     width: 25%;
  }
 .accueil div {
     flex:50%;
     display: flex;
     justify-content: center;
 }
- .accueil  .image-home {
-    margin: 0 auto;
-    flex: 50%;
+.image-home {
+ flex: 100%;
  }
-
  .image-home img {
-    width: 650px;
-    height: auto;
+width: 30%;
+margin: 0 auto
  }
 
 .gif-home {
-margin: 0 auto;
-flex: 50%;
-width: 300px;
-height: auto;
+    margin: 0 auto;
+    flex: 25%;
+    height: auto;
  }
 
 
@@ -37,11 +34,14 @@ height: auto;
     margin: 1em auto;
 }
  .accueil aside {
-    flex: 45%;
+    flex: 100%;
     justify-content: center;
     background-color: lightcoral;
     color: white;
     text-decoration: none;
-    border: solid slategray 2px;
+    border: solid slategray .15em;
     border-radius: .5%
+}
+.accueil aside p{
+    margin: 2em 3em;
 }
