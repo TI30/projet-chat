@@ -1,1 +1,63 @@
-.main-page-2
+@media screen and (max-width: 360px) {
+    body{
+        max-width: 100%;
+    }
+    h1 {
+        font-size: .7em
+    }
+    header>div img {
+        display: none;
+    }
+    nav .menu {
+        display: flex;
+        flex-flow: column;
+        font-size: .6em;
+    }
+    .gif-home img{
+        display: none;
+    }
+    .cat-walk {
+        display: none;
+    }
+    .gif-home{
+        width: 100%;
+    }
+    main{
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+    h2{
+        font-size: 1em;
+    }
+    p{
+        margin: 0;
+        padding: .1em;
+        line-height: auto;
+    }
+    img,
+    video{
+        height: auto !important;
+        width: 100% !important;
+        margin: 0;
+        padding: 0;
+    }
+    dd{
+        margin: 0;
+        padding:.1em;
+    }
+    ol{
+        padding: 0;
+    }
+    footer {
+        flex-flow: column-reverse;
+        width: 100%;
+    }
+    form{
+        display: block !important;
+        width: auto !important;
+    }
+    .contact{
+        width: auto !important;
+    }
+}
+    
